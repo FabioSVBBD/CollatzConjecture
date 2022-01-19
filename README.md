@@ -11,7 +11,7 @@ In Terminal: ```g++ collatz.cpp -o collatz```
 
 ### Runnning
 Depending on Terminal, find out how to run executables from cmd.
-In powershell and bash: ````.\collatz [number]```
+In powershell and bash: ```.\collatz [number]```
 
 #### Example in Powershell/Bash
 ```.\collatz 392```
