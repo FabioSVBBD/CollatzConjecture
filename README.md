@@ -15,3 +15,4 @@ In powershell and bash: ````.\collatz [number]```
 
 #### Example in Powershell/Bash
 ```.\collatz 392```
+The above command will Find the Total Stopping Time for 392 in the Collatz Conjecture.
