@@ -19,9 +19,10 @@ In powershell and bash:
 * ```.\brute [number]```
 
 #### Example in Powershell/Bash
+The below commands will Find the Total Stopping Time for 392 in the Collatz Conjecture.
 * ```.\collatz 392```
 * ```.\brute 392```
-The above command will Find the Total Stopping Time for 392 in the Collatz Conjecture.
+
 
 ### Notes
 #### ```collatz``` command
