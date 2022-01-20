@@ -14,9 +14,13 @@ In Terminal:
 
 ### Runnning
 Depending on Terminal, find out how to run executables from cmd.
+<<<<<<< HEAD
 In powershell and bash:
     ```.\collatz [number]```
     ```.\brute [number]```
+=======
+In powershell and bash: ```.\collatz [number]```
+>>>>>>> e49e4266961c785a80fd2adb16e0ae5af9a1b770
 
 #### Example in Powershell/Bash
 ```.\collatz 392```
