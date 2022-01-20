@@ -29,7 +29,7 @@ In Terminal:
 * ```g++ brute.cpp -o brute```
 
 
-### Runnning
+### Running
 Depending on Terminal, find out how to run executables.
 * In Command Prompt:
   * ```collatz [number]```
