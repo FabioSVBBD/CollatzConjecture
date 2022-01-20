@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
     if (argc != 2)
     {
-        cout << "Error: Invalid Arguments.\nAcceptable format: collatz [argument(int)]" << endl;
+        cout << "Error: Invalid Arguments.\nAcceptable format: brute [argument(unsigned long long int)]" << endl;
         return 0;
     }
     unsigned long long int val = 0;
@@ -20,13 +20,12 @@ int main(int argc, char *argv[])
         val = stoull(argv[1]);
 
     auto start = std::chrono::system_clock::now();
-
     int stopTime = getStopTime(val);
 
     auto end = std::chrono::system_clock::now();
+    chrono::duration<double> elapsed_seconds = end - start;
 
     cout << "Stepping Time: " << stopTime << endl;
-    chrono::duration<double> elapsed_seconds = end - start;
     cout << "elapsed time: " << elapsed_seconds.count() << "s\n\n";
 
     return stopTime;

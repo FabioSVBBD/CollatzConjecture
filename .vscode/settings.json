@@ -7,6 +7,7 @@
         "istream": "cpp",
         "utility": "cpp",
         "iostream": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "cstdlib": "cpp"
     }
 }
