@@ -9,15 +9,14 @@ int getStopTime(unsigned long long int n);
 
 int main(int argc, char *argv[])
 {
-    if (argc != 2)
+    if (argc != 2 || !isNumber(argv[1]))
     {
         cout << "Error: Invalid Arguments.\nAcceptable format: brute [argument(unsigned long long int)]" << endl;
         return 0;
     }
+    
     unsigned long long int val = 0;
-
-    if (isNumber(argv[1]))
-        val = stoull(argv[1]);
+    val = stoull(argv[1]);
 
     auto start = std::chrono::system_clock::now();
     int stopTime = getStopTime(val);
