@@ -29,5 +29,5 @@ The above command will Find the Total Stopping Time for 392 in the Collatz Conje
 * Uses Multitasking with ```std::thread```s
 
 #### ```brute``` command
-* Capable of calculating Stopping Time up to ```+-3x10^(17)``` or 3 Hundred Quadrillion
+* Capable of calculating Stopping Time up to ```18446744073709551615``` or + 18 Quintillion
 * Does not multitask

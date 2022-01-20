@@ -1,0 +1,3 @@
+An Iterator is an Object that we use to walk through a container. It is used instead of indexing directly, and typically
+introduces safety by using method calls such as begin() and end() and next()
+That is iterators never go out of bounds

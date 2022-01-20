@@ -52,8 +52,6 @@ int main(int argc, char *argv[])
     chrono::duration<double> elapsed_seconds = end - start;
     cout << "\n\nelapsed time: " << elapsed_seconds.count() << "s\n";
 
-    cin.get();
-
     // for (unsigned int i = 0; i < stepsMap.size(); i++)
     //     cout << "Key: " << get_map_IJ(i, 0) << "\tValue: " << get_map_IJ(i, 1) << endl;
 
