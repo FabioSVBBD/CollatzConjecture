@@ -41,20 +41,17 @@ Depending on Terminal, find out how to run executables.
   * ```./collatz [number]```
   * ```./brute [number]```
 
-#### Example in Command Prompt
-The below commands will Find the Total Stopping Time for 392 in the Collatz Conjecture.
+#### Examples
+The below commands will Find the Total Stopping Time for ```392``` which is ```27``` in the Collatz Conjecture.
+
+##### Example in Command Prompt
 * ```collatz 392```
 * ```brute 392```
 
-#### Example in Command Prompt
-The below commands will Find the Total Stopping Time for 392 in the Collatz Conjecture.
-* ```collatz 392```
-* ```brute 392```
-
-#### Example in Powershell
+##### Example in Powershell
 * ```.\collatz 392```
 * ```.\brute 392```
 
-#### Example in Bash
+##### Example in Bash
 * ```./collatz 392```
 * ```./brute 392```
