@@ -1,4 +1,4 @@
-# CollatzConjecture
+# The Collatz Conjecture
 Finds the Total Stopping Time of a Number ```n``` in ```3x+1```.
 
 ## Notes
@@ -40,6 +40,11 @@ Depending on Terminal, find out how to run executables.
 * In bash:
   * ```./collatz [number]```
   * ```./brute [number]```
+
+#### Example in Command Prompt
+The below commands will Find the Total Stopping Time for 392 in the Collatz Conjecture.
+* ```collatz 392```
+* ```brute 392```
 
 #### Example in Command Prompt
 The below commands will Find the Total Stopping Time for 392 in the Collatz Conjecture.
