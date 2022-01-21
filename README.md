@@ -3,7 +3,7 @@ Finds the Total Stopping Time of a Number ```n``` in ```3x+1```.
 
 ## Notes
 There are two commands available after build:
-1. ```collatz``` - Slow, Multithreaded
+1. ```collatz``` - Slow, Multithreaded. UPDATE: ```collatz``` DOES NOT WORK
 2. ```brute```   - Fast, Single Threaded
 
 ### ```collatz``` command
