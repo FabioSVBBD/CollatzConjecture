@@ -2,7 +2,7 @@
 Finds the Total Stopping Time of a Number ```n``` in ```3x+1```.
 
 ## Notes
-Seems to be the case that memoization is not the best method even for numbers close to ```2^64```\n
+Seems to be the case that memoization is not the best method even for numbers close to ```2^64```  return
 There is one command available after build:
 1. ```brute``` - Fast, Single Threaded
 
