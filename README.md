@@ -15,7 +15,7 @@ There is one command available after build:
 ## Building and Running
 ### Building
 #### Pre-requisites
-1. C++ Compiler installed (tested and built with MinGW-w64). [MinGW-w64 Download](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download)
+1. C++ Compiler installed (tested and built with MinGW-w64) - [MinGW-w64 Download](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download)
 2. Add MinGW's bin path to your PATH environment variable.
 
 #### Steps
