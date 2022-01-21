@@ -2,8 +2,8 @@
 Finds the Total Stopping Time of a Number ```n``` in ```3x+1```.
 
 ## Notes
-There are two commands available after build:
-1. ```brute```   - Fast, Single Threaded
+There is onee command available after build:
+1. ```brute``` - Fast, Single Threaded
 
 ### ```brute``` command
 * No Manual Multitasking takes place
