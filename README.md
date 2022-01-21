@@ -3,14 +3,7 @@ Finds the Total Stopping Time of a Number ```n``` in ```3x+1```.
 
 ## Notes
 There are two commands available after build:
-1. ```collatz``` - Slow, Multithreaded. UPDATE: ```collatz``` DOES NOT WORK
-2. ```brute```   - Fast, Single Threaded
-
-### ```collatz``` command
-* Uses Multitasking with ```std::thread```s
-* Is decent but not great
-* Capable of calculating Stopping Time of ```10 000 000``` in approximately 3.3s
-
+1. ```brute```   - Fast, Single Threaded
 
 ### ```brute``` command
 * No Manual Multitasking takes place
@@ -25,33 +18,26 @@ There are two commands available after build:
 
 #### Steps
 In Terminal:
-* ```g++ collatz.cpp -o collatz```
 * ```g++ brute.cpp -o brute```
 
 
 ### Running
 Depending on Terminal, find out how to run executables.
 * In Command Prompt:
-  * ```collatz [number]```
   * ```brute [number]```
 * In powershell:
-  * ```.\collatz [number]```
   * ```.\brute [number]```
 * In bash:
-  * ```./collatz [number]```
   * ```./brute [number]```
 
 #### Examples
-The below commands will Find the Total Stopping Time for ```392``` which is ```27``` in the Collatz Conjecture.
+The below commands will Find the Total Stopping Time for ```392``` (which is ```27```) in the Collatz Conjecture.
 
 ##### Example in Command Prompt
-* ```collatz 392```
 * ```brute 392```
 
 ##### Example in Powershell
-* ```.\collatz 392```
 * ```.\brute 392```
 
 ##### Example in Bash
-* ```./collatz 392```
 * ```./brute 392```
