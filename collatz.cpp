@@ -14,6 +14,7 @@ void startThread();
 void startThread2();
 
 std::map<int, int> stopMap;
+vector<int> stopVector;
 vector<thread *> threads;
 unsigned long long int MAX = 0;
 std::mutex m;
@@ -33,13 +34,15 @@ int main(int argc, char *argv[])
     cout << "Beginning ..." << endl;
     auto start = std::chrono::system_clock::now();
 
-    // Creates and Starts Threads
-    for (int i = 0; i < NUM_THREADS; i++)
-        threads.push_back(new thread(startThread2));
+    // // Creates and Starts Threads
+    // for (int i = 0; i < NUM_THREADS; i++)
+    //     threads.push_back(new thread(startThread2));
 
-    // Waits for threads to complete
-    for (int i = 0; i < NUM_THREADS; i++)
-        threads[i]->join();
+    // // Waits for threads to complete
+    // for (int i = 0; i < NUM_THREADS; i++)
+    //     threads[i]->join();
+
+    startThread2();
 
     auto end = std::chrono::system_clock::now();
     chrono::duration<double> elapsed_seconds = end - start;
@@ -69,6 +72,7 @@ void startThread()
         {
             int stopTime = getStopTime(i);
             stopMap.insert(pair<int, int>(i, stopTime));
+            // stopVector.push_back(stopTime);
         }
         m.unlock();
     }
