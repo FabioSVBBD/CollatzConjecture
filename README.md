@@ -2,9 +2,9 @@
 Finds the Total Stopping Time of a Number ```n``` in ```3x+1```.
 
 ## Notes
-Seems to be the case that memoization is not the best method even for numbers close to ```2^64``` \
+Seems to be the case that memoization is not the best method even for numbers close to ```2^64``` and far beyond
 
-There is three commands available after build:
+There are three commands available after build:
 1. ```brute```   - Fast, Single Threaded, supports 64 bit integers
 2. ```brute2```  - Fast, Single Threaded, supports literally every integer > 0
 3. ```collatz``` - Slow, Multithreaded, supports 64 bit integers, but is just too slow
@@ -12,7 +12,7 @@ There is three commands available after build:
 ### ```brute``` command
 * No Manual Multitasking takes place
 * Is Amazing (in terms of performance)
-* Capable of calculating Stopping Time where the number does not shoot off past ```18 446 744 073 709 551 615``` (the upper bound of a uint64_t in C++)
+* Capable of calculating Stopping Time where the number does not shoot off past ```18 446 744 073 709 551 615``` (the upper bound of a ```uint64_t``` in ```C++```)
 
 ### ```brute2``` command
 * No Manual Multitasking takes place
