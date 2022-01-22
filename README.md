@@ -68,3 +68,7 @@ The below commands will Find the Total Stopping Time for ```392``` (which is ```
 ##### Example in Bash
 * ```./brute 392```
 * ```./brute2 392```
+
+
+###### Comments
+Thank you to [William Chanrico](https://github.com/williamchanrico) who's [BigInt class](https://github.com/williamchanrico/biginteger-cpp/blob/master/BigInt.cpp) was used in building brute2
