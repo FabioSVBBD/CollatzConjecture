@@ -3,11 +3,6 @@ Finds the Total Stopping Time of a Number ```n``` in ```3x+1```.
 
 ## Notes
 Seems to be the case that memoization is not the best method even for numbers close to ```2^64``` \
-\
-### My Recommendation
-Use ```brute2``` -- Reasons:
-1. The performance lost to ```brute``` negligible
-2. Is unbounded, can literally calculate stopping time of every number (if every number has a stopping time)
 
 There is three commands available after build:
 1. ```brute```   - Fast, Single Threaded, supports 64 bit integers
@@ -29,6 +24,12 @@ There is three commands available after build:
 * Is extremely slow - Time to calculate stopping time for ```10 000``` is approximately 100s
 * Memoizes the stopping time for every value less than argument before calculating argument value
 * Do not use
+
+### My Recommendation
+Use ```brute2```
+#### Reasons:
+1. The performance lost to ```brute``` is negligible
+2. Is unbounded, can literally calculate stopping time of every number (if every number has a stopping time)
 
 ## Building and Running
 ### Building
