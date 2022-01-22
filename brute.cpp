@@ -11,12 +11,16 @@ int main(int argc, char *argv[])
 {
     if (argc != 2 || !isNumber(argv[1]))
     {
-        cout << "Error: Invalid Arguments.\nAcceptable format: brute [argument(unsigned long long int)]" << endl;
+        cout << "Error: Invalid Arguments.\nAcceptable format: brute [argument(unsigned long long int)]\n\n";
         return 0;
     }
-    
-    unsigned long long int val = 0;
-    val = stoull(argv[1]);
+
+    unsigned long long int val = stoull(argv[1]);
+    if (val <=  0)
+    {
+        cout << "Error: Invalid Range.\nVald Range: (0; Inf)\n\n";
+        return 0;
+    }
 
     auto start = std::chrono::system_clock::now();
     int stopTime = getStopTime(val);

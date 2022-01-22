@@ -69,6 +69,15 @@ The below commands will Find the Total Stopping Time for ```392``` (which is ```
 * ```./brute 392```
 * ```./brute2 392```
 
+## Collected Data
+* Test Cases:
+  1. ```10^(15)``` takes an average of ```0s``` to calculating stopping time of ```275```
+  2. ```10^(30)``` takes an average of ```0.005s``` to calculating stopping time of ```467```
+  3. ```10^(100)``` - A Googol takes an average of ```0.06s``` to calculate stopping of ```1 855```
+  4. ```10^(500)``` takens an average of ```1.83s``` to calculate stopping time of ```8 377```
+  5. ```10^(1000)``` takes an average of ```7.54s``` to calculate stopping time of ```18 178```
+  6. ```10^(2000)``` takes an average of ```30.6s``` to calculate stopping time of ```37 431```
+
 
 ###### Comments
 Thank you to [William Chanrico](https://github.com/williamchanrico) who's [BigInt class](https://github.com/williamchanrico/biginteger-cpp/blob/master/BigInt.cpp) was used in building brute2
