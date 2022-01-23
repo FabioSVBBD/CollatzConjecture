@@ -81,5 +81,5 @@ The below commands will Find the Total Stopping Time for ```392``` (which is ```
 
 
 ###### Comments
-Thank you to [William Chanrico](https://github.com/williamchanrico) who's [BigInt class](https://github.com/williamchanrico/biginteger-cpp/blob/master/BigInt.cpp) was used in building brute2
-Thank you to [Mordecai Velasco](https://github.com/mrdcvlsc) who's [bint class](https://github.com/mrdcvlsc/APA/tree/main/bint) was used in building brute2
+Thank you to [William Chanrico](https://github.com/williamchanrico) who's [BigInt class](https://github.com/williamchanrico/biginteger-cpp/blob/master/BigInt.cpp) was used in building ```brute2``` \
+Thank you to [Mordecai Velasco](https://github.com/mrdcvlsc) who's [bint class](https://github.com/mrdcvlsc/APA/tree/main/bint) was used in building ```brute3```
