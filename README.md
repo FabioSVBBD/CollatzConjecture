@@ -43,6 +43,8 @@ In Terminal:
 * ```g++ brute.cpp -o brute```
 * ```g++ brute2.cpp include/BigInt.cpp -o brute2```
 
+###### Optionally include ```-O3 -march=native``` flag for maximum performance
+
 ### Running
 Depending on Terminal, find out how to run executables.
 * In Command Prompt:
