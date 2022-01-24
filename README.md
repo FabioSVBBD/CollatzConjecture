@@ -35,8 +35,11 @@ Use ```brute2```
 ## Building and Running
 ### Building
 #### Pre-requisites
-1. C++ Compiler installed (tested and built with MinGW-w64) - [MinGW-w64 Download](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download)
-2. Add MinGW's bin path to your PATH environment variable.
+1. C++ Compiler installed (tested and built with MinGW-w64)
+  1. For windows: [MinGW-w64 Download For Windows](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download)
+  2. For Linux: ```sudo apt-get install gcc-mingw-w64```
+  3. For macOS: ```sudo port install mingw-w64```
+3. Add MinGW's bin path to your PATH environment variable.
 
 #### Steps
 In Terminal:
