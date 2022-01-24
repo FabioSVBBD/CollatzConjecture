@@ -4,7 +4,7 @@ Finds the Total Stopping Time of a Number ```n``` in ```3x+1```.
 ## Notes
 Seems to be the case that memoization is not the best method even for numbers close to ```2^64``` and far beyond
 
-There are three commands available after build:
+There are four commands available after build:
 1. ```brute```   - Fast, Single Threaded, supports 64 bit integers
 2. ```brute2```  - Fast, Single Threaded, supports literally every integer > 0
 3. ```collatz``` - Slow, Multithreaded, supports 64 bit integers, but is just too slow
@@ -39,12 +39,12 @@ Use ```brute2```
   * For windows: [MinGW-w64 Download For Windows](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download)
   * For Linux: ```sudo apt-get install gcc-mingw-w64```
   * For macOS: ```sudo port install mingw-w64```
-3. Add MinGW's bin path to your PATH environment variable.
+2. Add MinGW's bin path to your PATH environment variable.
 
 #### Steps
 In Terminal:
 * ```g++ brute.cpp -o brute```
-* ```g++ brute2.cpp include/BigInt.cpp -o brute2```
+* ```g++ brute2.cpp -o brute2```
 
 ###### Optionally include ```-O3 -march=native``` flag for maximum performance
 
