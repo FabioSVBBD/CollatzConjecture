@@ -27,8 +27,9 @@
 * Author: William Chanrico
 */
 
-#include <assert.h>
-#include <bits/stdc++.h>
+#include <string>
+#include <algorithm>
+
 using namespace std;
 
 class BigInt {
