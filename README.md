@@ -40,6 +40,7 @@ Use ```brute2```
   * For Linux: ```sudo apt-get install gcc-mingw-w64```
   * For macOS: ```sudo port install mingw-w64```
 2. Add MinGW's bin path to your PATH environment variable.
+3. If you have chosen to use a different C++ compiler, it should work but the build command will differ from those below.
 
 #### Steps
 In Terminal:
