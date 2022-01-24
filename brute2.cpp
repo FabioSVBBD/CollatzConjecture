@@ -31,8 +31,8 @@ int main(int argc, char *argv[])
     auto end = std::chrono::system_clock::now();
     chrono::duration<double> elapsed_seconds = end - start;
 
-    cout << "Stppping Time: " << stopTime << endl;
-    cout << "elapsed time: " << elapsed_seconds.count() << "s\n\n";
+    cout << stopTime << endl;
+    // cout << "elapsed time: " << elapsed_seconds.count() << "s\n\n";
 
     return stopTime;
 }
